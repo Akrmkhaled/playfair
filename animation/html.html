@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>خط تحت الحروف</title>
+</head>
+<body>
+	<p id="text">akrm khaled</p>
+	<button onclick="addUnderline()">خط تحت أول حرفين</button>
+
+	<script>
+		var flag = false;
+		function addUnderline() {
+			var text = document.getElementById("text");
+			if (!flag) {
+				text.innerHTML = text.innerHTML.replace(/^([^\s]{2})/, '$1<u>');
+				flag = true;
+			} else {
+				text.innerHTML = text.innerHTML.replace(/<u>([^\s]{2})/, '$1');
+				flag = false;
+			}
+		}
+	</script>
+</body>
+</html>

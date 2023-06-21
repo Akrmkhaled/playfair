@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>encreption</title>
+</head>
+<script>
+
+function goto() {
+    let keyyy = document.getElementById('keys').value;
+    let plaintext = document.getElementById('plaintext').value;
+      localStorage.setItem('keyys',keyyy);
+      localStorage.setItem('plaintext',plaintext);
+  
+    location.href = "page2.html";
+  }
+  function animations() {
+    let keyyy = document.getElementById('keys').value;
+    let plaintext = document.getElementById('plaintext').value;
+      localStorage.setItem('keyys',keyyy);
+      localStorage.setItem('plaintext',plaintext);
+  
+    location.href = "animation/page2.html";
+  }
+</script>
+<body>
+  <label for="">key :</label>
+  <input  type="text" placeholder="The key" required id="keys">
+  <section>
+    <textarea placeholder="Plaintext goes here" class="txetplain" name="akrm" id="plaintext" cols="30" rows="14"></textarea>
+    <br>
+    <input type="button" value="goin" id="oka" onclick="goto()">
+    <input type="button" value="whith animations" onclick="animations()" />
+  </section>
+</body>
+</html>
