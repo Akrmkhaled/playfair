@@ -57,7 +57,7 @@ function createTable(myArray) {
 createTable(arr);
 
 function playfairEncrypt(message, matrix) {
-  message = message.toUpperCase().replace(/[^A-Z]/g, "");
+  message = message.toUpperCase().replace(/J/g, "I").replace(/[^A-Z]/g, "");
   let messagePairs = [];
 
   for (let i = 0; i < message.length; i += 2) {

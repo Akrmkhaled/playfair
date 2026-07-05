@@ -12,6 +12,7 @@
 function goto() {
     let keyyy = document.getElementById('keys').value;
     let plaintext = document.getElementById('plaintext').value;
+    if (!keyyy || !plaintext) return;
       localStorage.setItem('keyys',keyyy);
       localStorage.setItem('plaintext',plaintext);
   
@@ -20,6 +21,7 @@ function goto() {
   function animations() {
     let keyyy = document.getElementById('keys').value;
     let plaintext = document.getElementById('plaintext').value;
+    if (!keyyy || !plaintext) return;
       localStorage.setItem('keyys',keyyy);
       localStorage.setItem('plaintext',plaintext);
   
