@@ -1,8 +1,8 @@
-# Playfair Cipher | شيفرة بلايفير
+# Playfair Cipher | التشفير بإستخدام Playfair Cipher
 
 A web-based implementation of the Playfair cipher encryption algorithm, with an interactive animation mode that visually demonstrates how the cipher works step by step.
 
-تطبيق ويب لتشفير النصوص باستخدام خوارزمية شيفرة بلايفير، مع وضع أنيميشن تفاعلي يوضح خطوات التشفير بصرياً.
+تطبيق ويب لتشفير النصوص باستخدام خوارزمية شيفرة Playfair Cipher، مع وضع أنيميشن تفاعلي يوضح خطوات التشفير بصرياً.
 
 ## 🔗 Live Demo | تجربة مباشرة
 
@@ -14,7 +14,7 @@ A web-based implementation of the Playfair cipher encryption algorithm, with an 
 
 The Playfair cipher is a classical encryption technique that encrypts pairs of letters (digraphs) instead of single letters. It uses a 5×5 matrix built from a keyword to perform the encryption.
 
-شيفرة بلايفير هي تقنية تشفير كلاسيكية تقوم بتشفير أزواج من الأحرف بدلاً من حرف واحد. تعتمد على مصفوفة 5×5 يتم بناؤها من كلمة مفتاحية.
+تقنية Playfair Cipher هي تقنية تشفير كلاسيكية تقوم بتشفير أزواج من الأحرف بدلاً من حرف واحد. تعتمد على مصفوفة 5×5 يتم بناؤها من كلمة مفتاحية.
 
 ---
 
@@ -24,7 +24,7 @@ The Playfair cipher is a classical encryption technique that encrypts pairs of l
 
 The key is used to fill a 5×5 matrix. Duplicate letters are removed, and the letter **J** is merged with **I** (since the matrix only fits 25 letters). The remaining alphabet letters fill the rest of the matrix.
 
-يتم استخدام المفتاح لملء مصفوفة 5×5. تُحذف الأحرف المكررة، ويُدمج الحرف **J** مع **I** (لأن المصفوفة تتسع لـ 25 حرفاً فقط). ثم تُملأ بقية المصفوفة بأحرف الأبجدية المتبقية.
+يتم استخدام المفتاح لملء مصفوفة 5×5. تُحذف الأحرف المكررة، ويُدمج الحرف **J** مع **I** (لأن المصفوفة تتسع لـ 25 حرفاً فقط). ثم تُملأ بقية المصفوفة بأحرف المتبقية.
 
 **Example | مثال:** Key = `MONARCHY`
 
