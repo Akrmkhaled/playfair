@@ -8,9 +8,12 @@ A web-based implementation of the Playfair cipher encryption algorithm, with an 
 
 **[Try it here | جرّبه من هنا](https://akrmkhaled.github.io/playfair/)**
 
+<img width="367" height="293" alt="image" src="https://github.com/user-attachments/assets/d735303f-8551-4c58-bc28-b8391027d250" />
+
+
 ---
 
-## About Playfair Cipher | عن شيفرة بلايفير
+## About Playfair Cipher | عن تقنية التشفير
 
 The Playfair cipher is a classical encryption technique that encrypts pairs of letters (digraphs) instead of single letters. It uses a 5×5 matrix built from a keyword to perform the encryption.
 
@@ -36,6 +39,9 @@ The key is used to fill a 5×5 matrix. Duplicate letters are removed, and the le
 | L | P | Q | S | T |
 | U | V | W | X | Z |
 
+<img width="368" height="285" alt="image" src="https://github.com/user-attachments/assets/18fe8604-a5ba-4047-af5f-d283b5d73d59" />
+
+
 ### Step 2: Prepare the Plaintext | الخطوة 2: تجهيز النص
 
 - The plaintext is converted to uppercase and non-letter characters are removed.
@@ -51,6 +57,9 @@ The key is used to fill a 5×5 matrix. Duplicate letters are removed, and the le
 - إذا كان عدد الأحرف فردياً، يُضاف **X** في النهاية.
 
 **Example | مثال:** `HELLO` → `HE LX LO`
+
+<img width="366" height="273" alt="image" src="https://github.com/user-attachments/assets/a6488c4a-0c6e-437a-8023-d53e226c4c64" />
+
 
 ### Step 3: Apply Encryption Rules | الخطوة 3: تطبيق قواعد التشفير
 
